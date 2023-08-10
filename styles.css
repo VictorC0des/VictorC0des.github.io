@@ -1,0 +1,92 @@
+#main-container{
+display: flex;
+flex-direction: column;
+height: 100vh;
+background-color:rgba(245, 40, 145, 0.1)  ;
+
+align-items: center;
+
+
+}
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+  
+}
+#user img{
+width: 2.5vw;
+height: auto;
+cursor: pointer;
+
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:  #e4049c;
+    align-items: center;
+    height: 8vh;
+    width: 100vw
+
+
+ 
+  
+}
+
+
+#navbar button{
+    width: 10vw;
+    height: 6vh;
+    border-radius: 1.25em;
+    border-color: transparent;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bolder;
+    background-size: 1vw;
+    align-self: center;
+    cursor: pointer;
+    
+}
+#navbar button:hover{
+   
+    background-color:rgba(0, 0, 0, 0.2)
+    }
+    #container-img img{
+        width: 10vw;
+        height: auto ;
+        padding-top: 3%;
+        }
+
+
+
+#search-bar input{
+    width: 40vw;
+    height: 3.5vh;
+    border-radius: 10vh;
+    border-color: transparent;
+    padding-left: 2%;
+    background-image: url('icons8-búsqueda-30.png');
+    background-position: right 1vw center;
+    background-repeat: no-repeat;
+    background-size: 4% auto;
+    font-size: 1vw;
+
+}
+
+
+#search-bar input:hover{
+   border-radius: 0%;
+   border-color: black;
+
+}
+
